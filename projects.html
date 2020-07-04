@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+<head>
+	<meta charset="UTF-8">
+	<title>已投项目</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0,user-scalable=no, minimal-ui">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="format-detection" content="telephone=no, email=no"/>
+	<!-- 忽略页面中的数字识别和email识别 -->
+	<!-- 针对手持设备优化，主要是针对一些老的不识别viewport的浏览器，比如黑莓 -->
+	<meta name="HandheldFriendly" content="true">
+	<!-- uc强制竖屏 -->
+	<meta name="screen-orientation" content="portrait">
+	<link rel="apple-touch-icon" href="apple-touch-icon.png">
+	<script type="text/javascript">
+		(function(win) {
+				var timeout,
+						doc = win.document,
+						html = doc.documentElement;
+
+				function setFontSize() {
+						var htmlWidth = html.getBoundingClientRect().width;
+						var ratio = htmlWidth / 640;
+						if (htmlWidth < 640) {
+								win.rem = ratio * 1.5;
+						} else {
+								win.rem = 1.5;
+						}
+						win.responseRatio = ratio;
+						html.style.fontSize = win.rem + "rem";
+				}
+				win.addEventListener("resize", function() {
+						clearTimeout(timeout), timeout = setTimeout(setFontSize, 300);
+				}, false);
+				setFontSize();
+		})(window);
+	</script>
+	<!-- QQ强制竖屏 -->
+
+	<!-- Place favicon.ico in the root directory -->
+
+	
+
+	<link rel="stylesheet" href="assets/styles/main.css">
+
+</head>
+<body>
+	<div class="container">
+		<div id="topHeader">
+		  <div class="cn-wrap">
+		    <div class="bg"></div>
+		    <div class="cn">
+		      <a id="logo" href="#">挑战者资本</a>
+		      <div class="menu-wrap">
+		        <a class="menuItem" href="index.html">
+		          <span class="zh">关于挑战者</span>
+		          <span class="en">About Us</span>
+		        </a>
+		
+		        <a class="menuItem on" href="projects.html">
+		          <span class="zh">已投项目</span>
+		          <span class="en">Invested Project</span>
+		        </a>
+		
+		        <a class="menuItem" href="form.html">
+		          <span class="zh">项目提交</span>
+		          <span class="en">Submit Project</span>
+		        </a>
+		        
+		        <a class="menuItem" href="contact.html">
+		          <span class="zh">联系我们</span>
+		          <span class="en">Contact Us</span>
+		        </a>
+		        
+		      </div>
+		    </div>
+		  </div>
+		</div>
+		<div id="swiper">
+				<img src="./assets/images/banner_Invested.png" alt="">
+		</div>
+
+		<div class="important">
+			<div class="bWrap">
+				<h3 class="t1">重点投资项目</h3>
+				<p class="gexian"></p>
+				<h4 class="sub-t1">The Key Investment Projects</h4>
+
+				<div class="bCn">
+					<div class="line">
+						<div class="col col1">
+							<div class="yaya logo"></div>
+							<div class="guzhang logo"></div>
+							<div class="yaya-tit">北京芽芽科技</div>
+							<div class="guzhang-tit">鼓掌移动</div>	
+						</div>
+
+						<div class="col col2">
+							<div class="yiqihe logo"></div>
+							<div class="yashen logo"></div>
+							<div class="yiqihe-tit">一起喝</div>
+							<div class="yashen-tit">雅森环宇</div>
+						</div>
+					</div>
+					<div class="line line2">
+						<div class="col col1">
+							<div class="rjm-tit">睿捷盟</div>
+							<div class="rjm logo"></div>
+							<div class="blank"></div>
+						</div>
+						<div class="col col2">
+							<div class="celltech logo"></div>
+							<div class="guanyun-tit">观云</div>
+							<div class="guanyun logo"></div>
+							<div class="celltech-tit">天津灏灵赛奥</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!-- 消费品和零售 -->
+		<div class="brandWrap">
+				<div class="brandList">
+						<i class="icon icon-sale"></i>
+						<h4 class="slogan">消费品和零售</h4>
+						<p class="desc">我们相信中产阶级需更要精致的生活，我们让你的生活更美好</p>
+						<ul class="bList">
+								<li>
+										<dl class="bItem">
+												<dd>熊猫精酿</dd>
+												<dt>精酿啤酒品牌</dt>
+												<dd class="bg"></dd>
+										</dl>
+								</li>
+
+								<li>
+										<dl class="bItem">
+												<dd>观云白酒</dd>
+												<dt>互联网白酒品牌</dt>
+												<dd class="bg"></dd>
+										</dl>
+								</li>
+
+								<li>
+										<dl class="bItem">
+												<dd>亚东精酿</dd>
+												<dt>新型精酿啤酒品牌</dt>
+												<dd class="bg"></dd>
+										</dl>
+								</li>
+								<li>
+										<dl class="bItem">
+												<dd>小三角户外</dd>
+												<dt>EDCO户外服饰品牌</dt>
+												<dd class="bg"></dd>
+										</dl>
+								</li>
+
+								<li>
+										<dl class="bItem">
+												<dd>王辣辣</dd>
+												<dt>酸辣粉连锁餐饮品牌</dt>
+												<dd class="bg"></dd>
+										</dl>
+								</li>
+
+								<li>
+										<dl class="bItem">
+												<dd>昂蔻餐饮</dd>
+												<dt>汉堡快餐连锁品牌</dt>
+												<dd class="bg"></dd>
+										</dl>
+								</li>
+
+								<li>
+										<dl class="bItem">
+												<dd>三千巷小面</dd>
+												<dt>面食连锁品牌</dt>
+												<dd class="bg"></dd>
+										</dl>
+								</li>
+								<li>
+										<dl class="bItem">
+												<dd>淘汰郎</dd>
+												<dt>互联网火锅品牌</dt>
+												<dd class="bg"></dd>
+										</dl>
+								</li>
+
+								<li>
+										<dl class="bItem">
+												<dd>元気森林</dd>
+												<dt>精工良配的健康饮料品牌</dt>
+												<dd class="bg"></dd>
+										</dl>
+								</li>
+
+								<li>
+										<dl class="bItem">
+												<dd>Never Coffee</dd>
+												<dt>即饮咖啡快消品牌</dt>
+												<dd class="bg"></dd>
+										</dl>
+								</li>
+
+								<li>
+										<dl class="bItem">
+												<dd>约约</dd>
+												<dt>时尚电商平台</dt>
+												<dd class="bg"></dd>
+										</dl>
+								</li>
+								<li>
+										<dl class="bItem">
+												<dd>须要科技</dd>
+												<dt>健康的鲜榨果汁品牌</dt>
+												<dd class="bg"></dd>
+										</dl>
+								</li>
+
+								<li>
+										<dl class="bItem">
+												<dd>一号生活</dd>
+												<dt>社区连锁便利店</dt>
+												<dd class="bg"></dd>
+										</dl>
+								</li>
+
+								<li>
+										<dl class="bItem">
+												<dd>野兽科技</dd>
+												<dt>高端运动自行车品牌</dt>
+												<dd class="bg"></dd>
+										</dl>
+								</li>
+
+						</ul>
+				</div>
+		</div>
+		<!-- 智能制造 -->
+		<div class="brandWrap even">
+				<div class="brandList three">
+						<i class="icon icon-ai"></i>
+						<h4 class="slogan">智能制造</h4>
+						<p class="desc">我们不追求短期利益，有耐心陪伴你一辈子</p>
+						<ul class="bList">
+								<li>
+										<dl class="bItem">
+												<dd>航宇智创</dd>
+												<dt>可再生NBC防护系统</dt>
+												<dd class="bg"></dd>
+										</dl>
+								</li>
+
+								<li>
+										<dl class="bItem">
+												<dd>狂跑者智能</dd>
+												<dt>智能球场体育装备</dt>
+												<dd class="bg"></dd>
+										</dl>
+								</li>
+
+								<li>
+										<dl class="bItem">
+												<dd>珞石科技</dd>
+												<dt>工业机器人供应商</dt>
+												<dd class="bg"></dd>
+										</dl>
+								</li>
+						</ul>
+				</div>
+		</div>
+		<!-- 医疗及健康 -->
+		<div class="brandWrap">
+				<div class="brandList">
+						<i class="icon icon-medical"></i>
+						<h4 class="slogan">医疗及健康</h4>
+						<p class="desc">我们不需要更多的挂号网站，我们投资药厂和医疗机构</p>
+						<ul class="bList">
+								<li>
+										<dl class="bItem">
+												<dd>美人志医疗</dd>
+												<dt>医美微整形连锁品牌</dt>
+												<dd class="bg"></dd>
+										</dl>
+								</li>
+
+								<li>
+										<dl class="bItem">
+												<dd>北京知药</dd>
+												<dt>纯中药精神类疾病专治药品</dt>
+												<dd class="bg"></dd>
+										</dl>
+								</li>
+
+								<li>
+										<dl class="bItem">
+												<dd>馨安医疗</dd>
+												<dt>互联网牙科品牌</dt>
+												<dd class="bg"></dd>
+										</dl>
+								</li>
+								<li>
+										<dl class="bItem">
+												<dd>北京诚医服务</dd>
+												<dt>海外医疗资源对接平台</dt>
+												<dd class="bg"></dd>
+										</dl>
+								</li>
+
+								<li>
+										<dl class="bItem xbItem">
+												<dd>天津灏灵赛奥</dd>
+												<dt>CAR-T细胞技术白血病医疗品牌</dt>
+												<dd class="bg"></dd>
+										</dl>
+								</li>
+
+								<li>
+										<dl class="bItem">
+												<dd>北京诚医咨询</dd>
+												<dt>专业的肝病医疗服务品牌</dt>
+												<dd class="bg"></dd>
+										</dl>
+								</li>
+
+								<li>
+										<dl class="bItem">
+												<dd>读心科技</dd>
+												<dt>粘贴式智能血压测量产品</dt>
+												<dd class="bg"></dd>
+										</dl>
+								</li>
+
+						</ul>
+				</div>
+		</div>
+		<!-- 金融科技 -->
+		<div class="brandWrap even">
+				<div class="brandList">
+						<i class="icon icon-finance"></i>
+						<h4 class="slogan">金融科技</h4>
+						<p class="desc">我们相信中国人会更加有钱，我们帮你赚更多的钱</p>
+						<ul class="bList">
+								<li>
+										<dl class="bItem">
+												<dd>老虎外汇</dd>
+												<dt>互联网外汇交易商</dt>
+												<dd class="bg"></dd>
+										</dl>
+								</li>
+
+								<li>
+										<dl class="bItem">
+												<dd>比特派</dd>
+												<dt>比特币交易平台</dt>
+												<dd class="bg"></dd>
+										</dl>
+								</li>
+
+								<li>
+										<dl class="bItem">
+												<dd>老虎证券</dd>
+												<dt>互联网美股券商</dt>
+												<dd class="bg"></dd>
+										</dl>
+								</li>
+								<li>
+										<dl class="bItem">
+												<dd>瓦特外汇</dd>
+												<dt>外汇行业的“金石数据”</dt>
+												<dd class="bg"></dd>
+										</dl>
+								</li>
+
+								<li>
+										<dl class="bItem">
+												<dd>小虎资管</dd>
+												<dt>私募基金管理人牌照持有者</dt>
+												<dd class="bg"></dd>
+										</dl>
+								</li>
+
+								<li>
+										<dl class="bItem">
+												<dd>彩云时代</dd>
+												<dt>海外二元期权金融平台</dt>
+												<dd class="bg"></dd>
+										</dl>
+								</li>
+
+								<li>
+										<dl class="bItem">
+												<dd>上海寻汇</dd>
+												<dt>外币资金与汇率管理专家</dt>
+												<dd class="bg"></dd>
+										</dl>
+								</li>
+
+								<li>
+										<dl class="bItem xlbItem">
+												<dd>保葫芦</dd>
+												<dt>为消费者提供一站式保险金融服务</dt>
+												<dd class="bg"></dd>
+										</dl>
+								</li>
+
+						</ul>
+				</div>
+		</div>
+		<!-- 其他服务 -->
+		<div class="brandWrap">
+				<div class="brandList">
+						<i class="icon icon-other"></i>
+						<h4 class="slogan">其他服务</h4>
+						<p class="desc">我们比任何人更相信年轻人一定能成功</p>
+						<ul class="bList">
+								<li>
+										<dl class="bItem">
+												<dd>卿烨科技</dd>
+												<dt>移动互联网数字营销专家</dt>
+												<dd class="bg"></dd>
+										</dl>
+								</li>
+
+								<li>
+										<dl class="bItem">
+												<dd>咖啡路由</dd>
+												<dt>中小企业智能网络服务提供商</dt>
+												<dd class="bg"></dd>
+										</dl>
+								</li>
+
+								<li>
+										<dl class="bItem">
+												<dd>老虎买房</dd>
+												<dt>海外版的“链家”房产中介</dt>
+												<dd class="bg"></dd>
+										</dl>
+								</li>
+								<li>
+										<dl class="bItem">
+												<dd>芽芽科技</dd>
+												<dt>电商服务SAAS</dt>
+												<dd class="bg"></dd>
+										</dl>
+								</li>
+
+								<li>
+										<dl class="bItem">
+												<dd>光量科技</dd>
+												<dt>面向B端的智能投顾系统</dt>
+												<dd class="bg"></dd>
+										</dl>
+								</li>
+
+								<li>
+										<dl class="bItem">
+												<dd>河马彩票</dd>
+												<dt>海外彩票基金操盘方</dt>
+												<dd class="bg"></dd>
+										</dl>
+								</li>
+
+								<li>
+										<dl class="bItem">
+												<dd>雅森展览</dd>
+												<dt>汽车后市场电商</dt>
+												<dd class="bg"></dd>
+										</dl>
+								</li>
+
+								<li>
+										<dl class="bItem">
+												<dd>星辰悦动</dd>
+												<dt>娱乐文化</dt>
+												<dd class="bg"></dd>
+										</dl>
+								</li>
+
+								<li>
+										<dl class="bItem">
+												<dd>金米财税</dd>
+												<dt>中小企业财务软件</dt>
+												<dd class="bg"></dd>
+										</dl>
+								</li>
+
+								<li>
+										<dl class="bItem">
+												<dd>广州泉涌</dd>
+												<dt>海外移动版VPN</dt>
+												<dd class="bg"></dd>
+										</dl>
+								</li>
+
+								<li>
+										<dl class="bItem">
+												<dd>新澜互动</dd>
+												<dt>互联网广告营销</dt>
+												<dd class="bg"></dd>
+										</dl>
+								</li>
+						</ul>
+				</div>
+		</div>
+		<div id="copyRight">
+		  <div class="crCn">
+		    <ul class="bMenu">
+		      <li><a href="index.html">关于挑战者</a></li>
+		      <li><a href="projects.html">已投项目</a></li>
+		      <li><a href="form.html">项目提交</a></li>
+		      <li><a href="contact.html">联系我们</a></li>
+		    </ul>
+		    <h3 class="copyright">©2017 Chalenger Captal, All Right Reserved </h3>
+		  </div>
+		</div>
+	</div>
+	<script src="assets/scripts/vendor.js"></script>
+
+	<script src="assets/scripts/main.js"></script>
+</body>
+</html>

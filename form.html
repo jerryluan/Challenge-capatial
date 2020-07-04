@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+<head>
+  <meta charset="UTF-8">
+  <title>联系我们</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0,user-scalable=no, minimal-ui">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="format-detection" content="telephone=no, email=no"/>
+  <!-- 忽略页面中的数字识别和email识别 -->
+  <!-- 针对手持设备优化，主要是针对一些老的不识别viewport的浏览器，比如黑莓 -->
+  <meta name="HandheldFriendly" content="true">
+  <!-- uc强制竖屏 -->
+  <meta name="screen-orientation" content="portrait">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <script type="text/javascript">
+    (function(win) {
+        var timeout,
+            doc = win.document,
+            html = doc.documentElement;
+
+        function setFontSize() {
+            var htmlWidth = html.getBoundingClientRect().width;
+            var ratio = htmlWidth / 640;
+            if (htmlWidth < 640) {
+                win.rem = ratio * 1.5;
+            } else {
+                win.rem = 1.5;
+            }
+            win.responseRatio = ratio;
+            html.style.fontSize = win.rem + "rem";
+        }
+        win.addEventListener("resize", function() {
+            clearTimeout(timeout), timeout = setTimeout(setFontSize, 300);
+        }, false);
+        setFontSize();
+    })(window);
+  </script>
+  <!-- QQ强制竖屏 -->
+
+  <!-- Place favicon.ico in the root directory -->
+
+  
+
+  <link rel="stylesheet" href="assets/styles/main.css">
+
+</head>
+<body>
+	<div class="container contact">
+		<div id="topHeader">
+		  <div class="cn-wrap">
+		    <div class="bg"></div>
+		    <div class="cn">
+		      <a id="logo" href="#">挑战者资本</a>
+		      <div class="menu-wrap">
+		        <a class="menuItem" href="index.html">
+		          <span class="zh">关于挑战者</span>
+		          <span class="en">About Us</span>
+		        </a>
+		
+		        <a class="menuItem" href="projects.html">
+		          <span class="zh">已投项目</span>
+		          <span class="en">Invested Project</span>
+		        </a>
+		
+		        <a class="menuItem on" href="form.html">
+		          <span class="zh">项目提交</span>
+		          <span class="en">Submit Project</span>
+		        </a>
+		        
+		        <a class="menuItem" href="contact.html">
+		          <span class="zh">联系我们</span>
+		          <span class="en">Contact Us</span>
+		        </a>
+		        
+		      </div>
+		    </div>
+		  </div>
+		</div>
+
+    <div id="swiper">
+      <img src="./assets/images/banner_submit.png" alt="">
+    </div>
+        
+    <div class="form-wrap">
+      <div class="form-icon"></div>
+      <h3 class="form-tit">请提交项目相关信息</h3>
+      <form action="#" class="form-cn">
+
+        <div class="afield">
+          <lable class="t">项目名称：</lable>
+          <div class="main">
+            <input type="text" class="ainput" name="pname" placeholder="请填写项目名称或完整公司名称">
+          </div>
+        </div>
+
+        <div class="afield">
+          <lable class="t">联系人：</lable>
+          <div class="main">
+            <input type="text" class="ainput" name="contactName" placeholder="请填写企业负责人姓名">
+          </div>
+        </div>
+
+        <div class="afield">
+          <lable class="t">联系电话：</lable>
+          <div class="main">
+            <input type="text" class="ainput" name="contactTell" placeholder="请填写企业负责人联系电话">
+          </div>
+        </div>
+
+        <div class="afield">
+          <lable class="t">联系邮箱：</lable>
+          <div class="main">
+            <input type="text" class="ainput" name="contactEmail" placeholder="请填写企业负责人联系邮箱">
+          </div>
+        </div>
+        
+        <div class="afield">
+          <lable class="t">项目介绍：</lable>
+          <div class="main">
+            <textarea name="projectProfile" id="" cols="30" rows="3" class="att" placeholder="请填写更多企业相关信息，让我们更多的了解你们，有助于更快联系你"></textarea>
+          </div>
+        </div>
+        
+        <div class="btn-wrap">
+          <input type="button" value="提交项目资料" class="pBtn">
+        </div>
+      </form>
+    </div>
+
+    <div class="helpInfo">
+      <div class="tip-cn">
+        挑战者资本拥有专业的投资实力，优秀的风控体系，贴心的增值服务。我们非常乐意了解你的商业创意和计划，并考虑对其投资的可能性。
+      </div>
+      <div class="planInfo">
+        <h4 class="plan-t">希望计划书中能包含不限于以下信息</h4>
+        <span class="line"></span>
+        <ul class="planList">
+          <li class="planItem">
+            <i class="icon icon-ol1"></i>公司概要，股权结构，股东，团队，主要经营管理人简介；
+          </li>
+          <li class="planItem">
+            <i class="icon icon-ol2"></i>项目具体内容介绍；
+          </li>
+          <li class="planItem">
+            <i class="icon icon-ol3"></i>市场分析，财务分析；
+          </li>
+          <li class="planItem">
+            <i class="icon icon-ol4"></i>具体的资金到位时间，使用计划；
+          </li>
+          <li class="planItem">
+            <i class="icon icon-ol5"></i>已投入的资金，融资计划，与基金的合作方式及保障方式；
+          </li>
+          <li class="planItem">
+            <i class="icon icon-ol6"></i>项目公司联系人，地址，电话，传真，邮箱
+          </li>
+        </ul>
+      </div>
+    </div>
+		<div id="copyRight">
+		  <div class="crCn">
+		    <ul class="bMenu">
+		      <li><a href="index.html">关于挑战者</a></li>
+		      <li><a href="projects.html">已投项目</a></li>
+		      <li><a href="form.html">项目提交</a></li>
+		      <li><a href="contact.html">联系我们</a></li>
+		    </ul>
+		    <h3 class="copyright">©2017 Chalenger Captal, All Right Reserved </h3>
+		  </div>
+		</div>
+	</div>
+  <script src="assets/scripts/vendor.js"></script>
+
+  
+
+  <script src="assets/scripts/main.js"></script>
+</body>
+</html>
